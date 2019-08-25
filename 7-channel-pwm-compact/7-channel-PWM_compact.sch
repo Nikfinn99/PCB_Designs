@@ -4459,6 +4459,24 @@ Extended soldering pads.
 <pad name="GND@2" x="7.58" y="10.8" drill="1" diameter="2" shape="long" rot="R90"/>
 <text x="3.5052" y="2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="3.175" y="1.143" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<wire x1="3.68" y1="13.3" x2="1.48" y2="13.3" width="0" layer="20"/>
+<wire x1="1.48" y1="13.3" x2="0.98" y2="13.8" width="0" layer="20" curve="-90"/>
+<wire x1="0.98" y1="13.8" x2="1.48" y2="14.3" width="0" layer="20" curve="-90"/>
+<wire x1="1.48" y1="14.3" x2="3.68" y2="14.3" width="0" layer="20"/>
+<wire x1="3.68" y1="14.3" x2="4.18" y2="13.8" width="0" layer="20" curve="-90"/>
+<wire x1="4.18" y1="13.8" x2="3.68" y2="13.3" width="0" layer="20" curve="-90"/>
+<wire x1="7.08" y1="11.9" x2="7.58" y2="12.4" width="0" layer="20" curve="-90"/>
+<wire x1="7.58" y1="12.4" x2="8.08" y2="11.9" width="0" layer="20" curve="-90"/>
+<wire x1="8.08" y1="11.9" x2="8.08" y2="9.7" width="0" layer="20"/>
+<wire x1="8.08" y1="9.7" x2="7.58" y2="9.2" width="0" layer="20" curve="-90"/>
+<wire x1="7.58" y1="9.2" x2="7.08" y2="9.7" width="0" layer="20" curve="-90"/>
+<wire x1="7.08" y1="9.7" x2="7.08" y2="11.9" width="0" layer="20"/>
+<wire x1="1.48" y1="8" x2="3.68" y2="8" width="0" layer="20"/>
+<wire x1="3.68" y1="8" x2="4.18" y2="7.5" width="0" layer="20" curve="-90"/>
+<wire x1="4.18" y1="7.5" x2="3.68" y2="7" width="0" layer="20" curve="-90"/>
+<wire x1="3.68" y1="7" x2="1.48" y2="7" width="0" layer="20"/>
+<wire x1="1.48" y1="7" x2="0.98" y2="7.5" width="0" layer="20" curve="-90"/>
+<wire x1="0.98" y1="7.5" x2="1.48" y2="8" width="0" layer="20" curve="-90"/>
 </package>
 <package name="POWER_JACK_PTH">
 <description>&lt;h3&gt;DC Barrel Power Jack/Connector PTH&lt;/h3&gt;
@@ -5043,22 +5061,22 @@ ESP8266 module</description>
 <wire x1="-6.83" y1="9.416" x2="-6.83" y2="15.216" width="0.127" layer="21"/>
 <wire x1="-6.83" y1="15.216" x2="9.17" y2="15.216" width="0.127" layer="21"/>
 <wire x1="-6.83" y1="9.416" x2="9.17" y2="9.416" width="0.127" layer="21"/>
-<pad name="5V" x="12.7" y="-10.16" drill="1.2" diameter="1.8288"/>
-<pad name="GND" x="12.7" y="-7.62" drill="1.2" diameter="1.8288"/>
-<pad name="D4" x="12.7" y="-5.08" drill="1.2" diameter="1.8288"/>
-<pad name="D3" x="12.7" y="-2.54" drill="1.2" diameter="1.8288"/>
-<pad name="D2" x="12.7" y="0" drill="1.2" diameter="1.8288"/>
-<pad name="D1" x="12.7" y="2.54" drill="1.2" diameter="1.8288"/>
-<pad name="RX" x="12.7" y="5.08" drill="1.2" diameter="1.8288"/>
-<pad name="TX" x="12.7" y="7.62" drill="1.2" diameter="1.8288"/>
-<pad name="3V3" x="-10.16" y="-10.16" drill="1.2" diameter="1.8288" rot="R180"/>
-<pad name="D8" x="-10.16" y="-7.62" drill="1.2" diameter="1.8288" rot="R180"/>
-<pad name="D7" x="-10.16" y="-5.08" drill="1.2" diameter="1.8288" rot="R180"/>
-<pad name="D6" x="-10.16" y="-2.54" drill="1.2" diameter="1.8288" rot="R180"/>
-<pad name="D5" x="-10.16" y="0" drill="1.2" diameter="1.8288" rot="R180"/>
-<pad name="D0" x="-10.16" y="2.54" drill="1.2" diameter="1.8288" rot="R180"/>
-<pad name="A0" x="-10.16" y="5.08" drill="1.2" diameter="1.8288" rot="R180"/>
-<pad name="RESET" x="-10.16" y="7.62" drill="1.2" diameter="1.8288" rot="R180"/>
+<pad name="5V" x="12.7" y="-10.16" drill="1"/>
+<pad name="GND" x="12.7" y="-7.62" drill="1"/>
+<pad name="D4" x="12.7" y="-5.08" drill="1"/>
+<pad name="D3" x="12.7" y="-2.54" drill="1"/>
+<pad name="D2" x="12.7" y="0" drill="1"/>
+<pad name="D1" x="12.7" y="2.54" drill="1"/>
+<pad name="RX" x="12.7" y="5.08" drill="1"/>
+<pad name="TX" x="12.7" y="7.62" drill="1"/>
+<pad name="3V3" x="-10.16" y="-10.16" drill="1" rot="R180"/>
+<pad name="D8" x="-10.16" y="-7.62" drill="1" rot="R180"/>
+<pad name="D7" x="-10.16" y="-5.08" drill="1" rot="R180"/>
+<pad name="D6" x="-10.16" y="-2.54" drill="1" rot="R180"/>
+<pad name="D5" x="-10.16" y="0" drill="1" rot="R180"/>
+<pad name="D0" x="-10.16" y="2.54" drill="1" rot="R180"/>
+<pad name="A0" x="-10.16" y="5.08" drill="1" rot="R180"/>
+<pad name="RESET" x="-10.16" y="7.62" drill="1" rot="R180"/>
 <text x="12.7" y="-17.78" size="1.4224" layer="25" align="bottom-right">&gt;Name</text>
 <wire x1="-6.8326" y1="9.4234" x2="-6.8326" y2="-8.89" width="0.127" layer="21"/>
 <wire x1="9.144" y1="9.4234" x2="9.1694" y2="9.4234" width="0.127" layer="21"/>
@@ -5170,6 +5188,143 @@ ESP8266 module</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-wago-508">
+<description>&lt;b&gt;Wago Screw Clamps&lt;/b&gt;&lt;p&gt;
+Grid 5.08 mm&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="W237-132">
+<description>&lt;b&gt;WAGO SREW CLAMP&lt;/b&gt;</description>
+<wire x1="-3.5306" y1="-1.651" x2="-1.524" y2="0.3556" width="0.254" layer="51"/>
+<wire x1="1.6256" y1="-1.6764" x2="3.5306" y2="0.3556" width="0.254" layer="51"/>
+<wire x1="-5.08" y1="4.191" x2="5.08" y2="4.191" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-4.826" x2="5.08" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-4.826" x2="-5.08" y2="-4.826" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="4.191" x2="-5.08" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.413" x2="-3.429" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-2.413" x2="-1.651" y2="-2.413" width="0.1524" layer="51"/>
+<wire x1="-1.651" y1="-2.413" x2="1.651" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="-2.413" x2="5.08" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.413" x2="-5.08" y2="-4.826" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-2.413" x2="5.08" y2="4.191" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="4.191" x2="-5.08" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="4.445" x2="5.08" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="4.191" x2="5.08" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="1.651" y1="-2.413" x2="3.429" y2="-2.413" width="0.1524" layer="51"/>
+<circle x="-2.54" y="-0.635" radius="1.4986" width="0.1524" layer="51"/>
+<circle x="-2.54" y="2.8448" radius="0.508" width="0.1524" layer="21"/>
+<circle x="2.54" y="-0.635" radius="1.4986" width="0.1524" layer="51"/>
+<circle x="2.54" y="2.8448" radius="0.508" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="-0.635" drill="1.1938" shape="long" rot="R90"/>
+<pad name="2" x="2.54" y="-0.635" drill="1.1938" shape="long" rot="R90"/>
+<text x="-4.445" y="1.27" size="1.27" layer="51" ratio="10">1</text>
+<text x="0.6858" y="1.2192" size="1.27" layer="51" ratio="10">2</text>
+<text x="-3.81" y="-6.985" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.81" y="-4.318" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+</package>
+<package name="W237-133">
+<description>&lt;b&gt;WAGO SREW CLAMP&lt;/b&gt;</description>
+<wire x1="-6.0706" y1="-1.651" x2="-4.064" y2="0.3556" width="0.254" layer="51"/>
+<wire x1="-0.9144" y1="-1.6764" x2="0.9906" y2="0.3556" width="0.254" layer="51"/>
+<wire x1="4.1656" y1="-1.6002" x2="5.969" y2="0.3556" width="0.254" layer="51"/>
+<wire x1="-7.62" y1="-4.826" x2="7.62" y2="-4.826" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="4.191" x2="7.62" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="4.191" x2="-7.62" y2="4.191" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-4.826" x2="-7.62" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="4.191" x2="-7.62" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="4.445" x2="7.62" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="4.191" x2="7.62" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-2.413" x2="-5.969" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="-5.969" y1="-2.413" x2="-4.191" y2="-2.413" width="0.1524" layer="51"/>
+<wire x1="-4.191" y1="-2.413" x2="-0.889" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-2.413" x2="4.191" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="5.969" y1="-2.413" x2="7.62" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-2.413" x2="-7.62" y2="4.191" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-2.413" x2="7.62" y2="-4.826" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-2.413" x2="0.889" y2="-2.413" width="0.1524" layer="51"/>
+<wire x1="4.191" y1="-2.413" x2="5.969" y2="-2.413" width="0.1524" layer="51"/>
+<circle x="-5.08" y="-0.635" radius="1.4986" width="0.1524" layer="51"/>
+<circle x="5.08" y="-0.635" radius="1.4986" width="0.1524" layer="51"/>
+<circle x="-5.08" y="2.8448" radius="0.508" width="0.1524" layer="21"/>
+<circle x="5.08" y="2.8448" radius="0.508" width="0.1524" layer="21"/>
+<circle x="0" y="-0.635" radius="1.4986" width="0.1524" layer="51"/>
+<circle x="0" y="2.8448" radius="0.508" width="0.1524" layer="21"/>
+<pad name="1" x="-5.08" y="-0.635" drill="1.1938" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-0.635" drill="1.1938" shape="long" rot="R90"/>
+<pad name="3" x="5.08" y="-0.635" drill="1.1938" shape="long" rot="R90"/>
+<text x="-6.985" y="1.27" size="1.27" layer="51" ratio="10">1</text>
+<text x="-1.8542" y="1.2192" size="1.27" layer="51" ratio="10">2</text>
+<text x="3.2258" y="1.27" size="1.27" layer="51" ratio="10">3</text>
+<text x="-6.604" y="-4.318" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-6.985" y="-6.858" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="KL">
+<wire x1="1.778" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<circle x="0.889" y="0" radius="0.898" width="0.254" layer="94"/>
+<text x="-1.27" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<pin name="KL" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="KL+V">
+<wire x1="1.778" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<circle x="0.889" y="0" radius="0.898" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-1.27" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<pin name="KL" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="W237-02P" prefix="X" uservalue="yes">
+<description>&lt;b&gt;WAGO SREW CLAMP&lt;/b&gt;</description>
+<gates>
+<gate name="-1" symbol="KL" x="0" y="0" addlevel="always"/>
+<gate name="-2" symbol="KL+V" x="0" y="-5.08" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="W237-132">
+<connects>
+<connect gate="-1" pin="KL" pad="1"/>
+<connect gate="-2" pin="KL" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="W237-03P" prefix="X" uservalue="yes">
+<description>&lt;b&gt;WAGO SREW CLAMP&lt;/b&gt;</description>
+<gates>
+<gate name="-1" symbol="KL" x="0" y="0" addlevel="always"/>
+<gate name="-2" symbol="KL" x="0" y="-5.08" addlevel="always"/>
+<gate name="-3" symbol="KL+V" x="0" y="-10.16" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="W237-133">
+<connects>
+<connect gate="-1" pin="KL" pad="1"/>
+<connect gate="-2" pin="KL" pad="2"/>
+<connect gate="-3" pin="KL" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5214,6 +5369,8 @@ ESP8266 module</description>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
+<part name="X1" library="con-wago-508" deviceset="W237-02P" device=""/>
+<part name="X2" library="con-wago-508" deviceset="W237-03P" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5311,6 +5468,11 @@ ESP8266 module</description>
 <instance part="GND10" gate="1" x="210.82" y="-5.08" smashed="yes" rot="R90">
 <attribute name="VALUE" x="212.344" y="-5.842" size="1.778" layer="96"/>
 </instance>
+<instance part="X1" gate="-1" x="226.06" y="53.34" rot="R180"/>
+<instance part="X1" gate="-2" x="226.06" y="55.88" rot="R180"/>
+<instance part="X2" gate="-1" x="226.06" y="45.72" rot="R180"/>
+<instance part="X2" gate="-2" x="226.06" y="48.26" rot="R180"/>
+<instance part="X2" gate="-3" x="226.06" y="50.8" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -5322,6 +5484,9 @@ ESP8266 module</description>
 <wire x1="190.5" y1="50.8" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="D"/>
 <wire x1="190.5" y1="53.34" x2="170.18" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="50.8" x2="220.98" y2="50.8" width="0.1524" layer="91"/>
+<junction x="210.82" y="50.8"/>
+<pinref part="X2" gate="-3" pin="KL"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -5331,6 +5496,9 @@ ESP8266 module</description>
 <wire x1="190.5" y1="48.26" x2="190.5" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="D"/>
 <wire x1="190.5" y1="38.1" x2="170.18" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="48.26" x2="210.82" y2="48.26" width="0.1524" layer="91"/>
+<junction x="210.82" y="48.26"/>
+<pinref part="X2" gate="-2" pin="KL"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -5340,6 +5508,9 @@ ESP8266 module</description>
 <wire x1="193.04" y1="45.72" x2="193.04" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="D"/>
 <wire x1="193.04" y1="22.86" x2="170.18" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="45.72" x2="220.98" y2="45.72" width="0.1524" layer="91"/>
+<junction x="210.82" y="45.72"/>
+<pinref part="X2" gate="-1" pin="KL"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -5461,6 +5632,12 @@ ESP8266 module</description>
 <pinref part="P+1" gate="1" pin="+12V"/>
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="200.66" y1="53.34" x2="210.82" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-1" pin="KL"/>
+<wire x1="210.82" y1="53.34" x2="220.98" y2="53.34" width="0.1524" layer="91"/>
+<junction x="210.82" y="53.34"/>
+<pinref part="X1" gate="-2" pin="KL"/>
+<wire x1="220.98" y1="53.34" x2="220.98" y2="55.88" width="0.1524" layer="91"/>
+<junction x="220.98" y="53.34"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="PWR"/>
